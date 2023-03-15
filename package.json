@@ -1,0 +1,19 @@
+{
+  "name": "nodeserverboilerplate",
+  "version": "1.0.0",
+  "description": "Node server boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
